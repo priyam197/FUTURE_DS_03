@@ -34,9 +34,9 @@ This project analyzes student satisfaction survey data using Python (Pandas, NLT
 - Data Visualization (Seaborn & Matplotlib)
 
 Files:
-Student_Satisfaction_Survey.csv – Raw survey dataset
+- Student_Satisfaction_Survey.csv – Raw survey dataset
 
-student_feedback_2.ipynb – Main analysis notebook
+- student_feedback_2.ipynb – Main analysis notebook
 
-student_feedback 2.pdf – Rendered output (report view)
+- student_feedback 2.pdf – Rendered output (report view)
 
