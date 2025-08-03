@@ -1,29 +1,42 @@
 # FUTURE_DS_03
-DATA SCIENCE & ANALYTICS
+Project: Student Feedback Sentiment Analysis
+This project analyzes student satisfaction survey data using Python (Pandas, NLTK, Seaborn) to uncover trends in feedback, identify strengths and weaknesses in teaching, and generate actionable insights.
 
+ What I Did:
+- Cleaned and processed survey data from a .csv file
 
+- Extracted and converted percentage scores from text to numeric
 
-- Loaded the Data
-You read a CSV file containing feedback using pandas.
+- Applied sentiment analysis using VADER to evaluate student feedback
 
-- Cleaned the Data
-Basic data cleaning steps were applied to prepare the data for analysis.
+- Grouped feedback by course, question, and cluster to explore patterns
 
-- Performed Sentiment Analysis
-Used NLTK's VADER (SentimentIntensityAnalyzer) to calculate sentiment scores.
+- Used TF-IDF and KMeans clustering to uncover thematic topics
 
-Applied it to the "Questions" column to get a compound sentiment score.
+- Created visualizations for sentiment distribution and low/high scoring questions
 
-- Identified Satisfaction Trends
-Analyzed the sentiment results to identify how students feel (positive/neutral/negative).
+ Key Insights:
+- Overall sentiment score across all responses was moderately positive
 
-- Visualized the Results
-Used Seaborn (sns) and Matplotlib (plt) to plot:
+- Feedback about internships, mentoring, and extracurriculars received the highest sentiment
 
-- Sentiment distribution
+- Internal evaluation fairness, syllabus coverage, and use of ICT tools had lower sentiment, suggesting areas for improvement
 
-- Extracted Themes and Suggestions
-Likely based on textual feedback content, though not explicitly detailed in the code.
+ Skills Applied:
+- Data Cleaning and Preprocessing
 
-- Summarized Insights and Recommendations
-Used markdown cells to explain observations and suggest actionable insights.
+- Sentiment Analysis (NLTK VADER)
+
+- Unsupervised Clustering (KMeans)
+
+- Text Preprocessing and Feature Extraction (TF-IDF)
+
+- Data Visualization (Seaborn & Matplotlib)
+
+Files:
+Student_Satisfaction_Survey.csv – Raw survey dataset
+
+student_feedback_2.ipynb – Main analysis notebook
+
+student_feedback 2.pdf – Rendered output (report view)
+
